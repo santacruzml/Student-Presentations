@@ -43,7 +43,7 @@ y_train = [0, -1, -2, -3]
 # within a session.
 with tf.Session() as sess:
     # Write graph to file for TensorBoard visualization.
-    writer = tf.summary.FileWriter("./graphs", sess.graph)
+    writer = tf.summary.FileWriter("logs", sess.graph)
 
     # Variables are not initialized when you call
     # tf.Variable. To initialize all the variables

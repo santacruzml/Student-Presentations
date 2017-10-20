@@ -24,7 +24,7 @@
 +++
 # TensorBoard
 ```
-tensorboard --logdir='./graphs'
+tensorboard --logdir=logs
 ```
 
 +++?image=imgs/tensorboard_graph.png&size=contain
